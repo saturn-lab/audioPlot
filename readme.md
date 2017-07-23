@@ -1,4 +1,4 @@
-#Prepare for processing
+# Prepare for processing
 ## Get FFMPEG
 * Download ffmpeg from [ffmpeg](http://ffmpeg.zeranoe.com/builds/), you should select `Static` linking and get a zip file.
 * extract the zip file into `ffmpeg` folder, __so that there exists `ffmpeg/bin/ffmeg.exe`__.
