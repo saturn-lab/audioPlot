@@ -1,6 +1,6 @@
 # 1. Prepare for processing
 ## 1.1 get FFMPEG
-* Download ffmpeg from [ffmpeg](http://ffmpeg.zeranoe.com/builds/), you should select `Static` linking and get a zip file.
+* Download `ffmpeg` from [ffmpeg](http://ffmpeg.zeranoe.com/builds/), you should select `Static` linking and get a zip file.
 * extract the zip file into `ffmpeg` folder, __so that there exists `ffmpeg/bin/ffmeg.exe`__.
 
 ## 1.2 get SOX
@@ -12,7 +12,7 @@
 `$ python ./convert_file.py  XX/YY/raw`
 
 
-# 3. Output Images 
+# 3. Output spectrogram and waveform images 
 
 ## 3.1 Convert wavfiles to spectrogram 
 
