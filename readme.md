@@ -1,4 +1,4 @@
-# Prepare for processing
+1. # Prepare for processing
 ## Get FFMPEG
 * Download ffmpeg from [ffmpeg](http://ffmpeg.zeranoe.com/builds/), you should select `Static` linking and get a zip file.
 * extract the zip file into `ffmpeg` folder, __so that there exists `ffmpeg/bin/ffmeg.exe`__.
@@ -8,11 +8,11 @@
 * extract zip file into the `sox` folder. __so that there exists `sox/sox.exe`__.
 
 
-# Convert Audio files to uniform format: *.wav
+2. # Convert Audio files to uniform format: *.wav
 `$ python ./convert_file.py  XX/YY/raw`
 
 
-# Output Images 
+3. # Output Images 
 
 ## Convert wavfile to spectrogram 
 
