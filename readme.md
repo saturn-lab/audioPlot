@@ -9,7 +9,7 @@
 
 
 # 2. Uniforming Audio files with same `*.wav` format: 
-`$ python ./convert_file.py  XX/YY/raw`
+`$ python ./convert_file.py  ./rawfile/`
 
 
 # 3. Output spectrogram and waveform images 
