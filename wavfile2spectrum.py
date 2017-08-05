@@ -7,7 +7,7 @@ import sys
 
 SOX_PATH=os.path.join('.', 'sox', 'sox')
 
-SOX_COMMAND = SOX_PATH + ' %s  -n rate 4k spectrogram -o  %s'
+SOX_COMMAND = SOX_PATH + ' %s  -n rate 4k spectrogram -r -o  %s'
 
 def ConvertFile2Spectrum(audio, dir_out):
   fname = os.path.basename(audio)
