@@ -32,7 +32,7 @@ def ConvertFile(audio, itr, dir_out):
   os.system(FFMPEG_COMMAND%(audio, output_name))
   return True
 
-def ConvertAudioToWav(dir_in, dir_out=os.path.join('.', 'image', 'wavfile')):
+def ConvertAudioToWav(dir_in, dir_out=os.path.join('.', 'wavfile')):
   if not os.path.exists(dir_in):
     raise(ValueError(dir_in + ' does not exist'))
   if not os.path.exists(dir_out):
