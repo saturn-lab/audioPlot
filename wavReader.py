@@ -37,7 +37,9 @@ def _parseData(buf):
             break
     if riffid != b'data':
         raise ValueError('"data" header is missing')
-    data = numpy.frombuffer(buf[itr + 8: itr + 8 + size], dtype=numpy.float32)
+    #在这里进行size的4字节整数倍化
+    more = size % 4
+    data = numpy.frombuffer(buf[itr + 8: itr + 8 + size - more], dtype=numpy.float32)
     return fmt.sps, data
 
 
