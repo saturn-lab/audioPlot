@@ -19,13 +19,13 @@
 
 ## Step 3.1 Convert wavfiles to spectrogram 
 
-`python3 wavfile2spectrum.py ./wavfiles_dir/`
+`python3 wavfile2spectrum.py ./wavfile/`
 
 * put spectrograms into `images/spectrum/`
 
 ## Step 3.2 Convert wavfiles to waveform 
 
-`python3 wavfile2waveform.py ./wavfiles_dir/`
+`python3 wavfile2waveform.py ./wavfile/`
 
 * put waveforms into `images/waveform/`
 

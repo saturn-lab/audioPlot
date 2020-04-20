@@ -20,6 +20,7 @@ def ConvertFile2Waveform(audio, dir_out):
 
     print(fname)
 
+    plt.figure()
     plt.plot(data)
     plt.savefig(fname + '.png')
 
