@@ -1,6 +1,6 @@
 # Step 1. Prepare for processing
 ## Step 1.1 get FFMPEG
-* Download `ffmpeg` from [ffmpeg](http://ffmpeg.zeranoe.com/builds/), you should select `Static` linking and get a zip file.
+* Download `ffmpeg` from [ffmpeg](https://ffmpeg.org/), you should select `Static` linking and get a zip file.
 * extract the zip file into `ffmpeg` folder, __so that there exists `ffmpeg/bin/ffmeg.exe`__.
 
 ## Step 1.2 get SOX
